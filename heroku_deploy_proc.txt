@@ -1,0 +1,10 @@
+heroku login
+email: ...
+password: ...
+
+heroku keys:add
+ssh -v git@heroku.com <- connect git and heroku
+
+heroku create -> create app on heroku
+git push heroku
+=: done 
